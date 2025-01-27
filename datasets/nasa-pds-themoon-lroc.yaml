@@ -1,0 +1,44 @@
+Name: NASA / PDS Calibrated and Projected LROC High Resolution Images of the Moon
+Description: |
+    These data are calibrated and map projected observations collected and originally processed by the Lunar Reconnaissance Orbiter Camera Team (LROC). The observations and metadata are from NASA's Planetary Data System (PDS). These data have been calibrated by the LROC Team. For the derived map projected versions, they are not photogrammetrically controlled and use a priori NAIF SPICE (spacecraft) pointing. Therefore, these data will not co-register perfectly with controlled data products. Data are released using the original camera space or simple cylindrical (planetocentric positive East, center longitude 0, -180 - 180 longitude domain) and a pole centered polar stereographic projection. Data are projected to the appropriate IAU Well-known Text projection.
+Documentation: https://pds.lroc.asu.edu/data/
+Contact: https://pds-imaging.jpl.nasa.gov/help/newusers.html
+ManagedBy: "[NASA](https://www.nasa.gov)"
+UpdateFrequency: LROC data will be updated as new releases are made to the Planetary Data System.
+Tags:
+  - aws-pds
+  - planetary
+  - satellite imagery
+  - planetary data system
+  - pds3
+  - pds4
+  - geotiff
+  - the Moon
+License: "[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)"
+Citation: https://doi.org/10.17189/bx7p-0d06
+Resources:
+  - Description: Observations and metadata
+    ARN: arn:aws:s3:::asc-pds-lunar-reconnaissance-orbiter/LROC/
+    Region: us-west-2
+    Type: S3 Bucket
+    Explore:
+      - '[LROC S3 Browser](https://pdsimage2.wr.usgs.gov/Lunar_Reconnaissance_Orbiter/LROC/)'
+DataAtWork:
+  Tutorials:
+    - Title: "Working with Lunar Reconnaissance Orbiter LROC Narrow Angle Camera (NAC) Data"
+      URL: https://www.lroc.asu.edu/data/support/downloads/LROC_NAC_Processing_Guide.pdf
+      AuthorName: LROC Team
+      AuthorURL: https://www.lroc.asu.edu/about/team
+    - Title: "Lunar Reconnaissance Orbiter Camera (LROC) Instrument Overview"
+      URL: https://link.springer.com/article/10.1007/s11214-010-9634-2
+      AuthorName: LROC Team
+      AuthorURL: https://www.lroc.asu.edu/about/team
+  Tools & Applications:
+    - Title: Lunaserv - Web Map Client
+      URL: https://webmap.lroc.asu.edu/lunaserv.html
+      AuthorName: LROC Team
+      AuthorURL: https://www.lroc.asu.edu/about/team
+    - Title: Lunar QuickMap - Web Map Client
+      URL: https://quickmap.lroc.asu.edu/
+      AuthorName: Applied Coherent Technology (ACT)
+      AuthorURL: https://www.actgate.com/about
